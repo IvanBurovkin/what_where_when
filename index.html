@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Что? Где? Когда?</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="title">Что? Где? Когда?</header>
+    <main class="box">
+      <form class="box__input" name="numbers">
+        <div>
+          <p class="number text">
+            Введите минимальное число
+          </p>
+          <input type="text" id="min" name="min" maxlength="19" value="0" autocomplete="off">
+        </div>
+        <div>
+          <p class="number text">
+            Введите максмальное число
+          </p>
+          <input type="text" id="max" name="max" maxlength="19" value="100" autocomplete="off">
+        </div>
+        <button class="start_button" id="start" name="start">старт</button>
+      </form>
+    <div class="box__res">
+      <p class="result text">
+        Случайное число
+      </p>
+      <div class="result__number" id="result"></div>
+    </div>
+    </main>
+    <footer class="author">
+    <a class="copyright" href="https://github.com/IvanBurovkin">© Chudik</a> 
+    </footer>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
